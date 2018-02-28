@@ -20,8 +20,7 @@ Para deshacer el último commit sin deshacer las últimas modificaciones de la s
 
 --  
 
-**3.El merge del paso13,¿Causó algún conflicto?¿Porqué?
-**
+**3.El merge del paso13,¿Causó algún conflicto?¿Porqué?**
 
 Se abre el editor de texto nano ya que es un merge "no fast-forward". Desde la rama "styled" absorve la rama "master". Utilizando desde "styled" el comando "git merge master" te crea un commit superior y a este commit se le va a unir la rama "master", la cual se quedará un commit más atras aunque el contenido de la rama se lo ha añadido a la rama "styled".
 
@@ -29,8 +28,7 @@ Se abre el editor de texto nano ya que es un merge "no fast-forward". Desde la r
 
 **4.El merge del paso19,¿Causó algún conflicto?¿Porqué?**
 
-No, ya que como la rama "styled" estaba por encima de la rama "htmlify" necesitabas encontrarte en la rama "styled" para absorver a la otra y realizar un "merge fast-forward".
-
+Si, ya que el archivo don-quijote.md había sido modificado en la rama htmlify pero no en la rama sryled y por eso el merge daba error. Al modificar el archivo desde la rama styled el error se soluciona y styled puede absorver a htmlify.
 
 --
 
