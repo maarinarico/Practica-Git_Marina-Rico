@@ -34,9 +34,13 @@ Si, ya que el archivo don-quijote.md había sido modificado en la rama htmlify p
 
 **5.El merge del paso21,¿Causó algún conflicto?¿Porqué?**
 
+No. Se trata de un merge fast-forward ya que styled ya había absorvido a master por la cual cosa styled estaba por encima de master y no da conflicto.
+
 --
 
 **6.¿Qué comando o comandos utilizaste en el paso25?**
+
+
 
 --
 
