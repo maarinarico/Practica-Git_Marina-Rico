@@ -23,7 +23,7 @@ Para deshacer el último commit sin deshacer las últimas modificaciones de la s
 **3.El merge del paso13,¿Causó algún conflicto?¿Porqué?
 **
 
-Si, ya que como la rama "styled" estaba por debajo de la rama "master" necesitabas encontrarte en la rama "master" para absorver a la otra y realizar un "merge no fast-forward" y no lo contrario.
+Se abre el editor de texto nano ya que es un merge "no fast-forward". Desde la rama "styled" absorve la rama "master". Utilizando desde "styled" el comando "git merge master" te crea un commit superior y a este commit se le va a unir la rama "master", la cual se quedará un commit más atras aunque el contenido de la rama se lo ha añadido a la rama "styled".
 
 --
 
